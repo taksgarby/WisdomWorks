@@ -1,0 +1,34 @@
+Memo to Raquel:
+
+This is what I have done so far:
+
+Ceated folders: server client
+Set up Node.js server: cd into server & npm init -y
+Installed Express, Nodemon and the Cors: npm i express cors nodemon
+Created index file (the entry point to the web server): touch index.js
+Added the following in index.js:
+
+const express = require("express");
+const cors = require("cors");
+const app = express();
+const PORT = 4000;
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(cors());
+
+app.get("/api", (req, res) => {
+    res.json({
+        message: "Hello world",
+    });
+});
+
+app.listen(PORT, () => {
+    console.log(`Server listening on ${PORT}`);
+});
+
+Added  "start": "nodemon index.js" on "scripts" section in packege.json file 
+
+Created a react app in the client folder: npx create-react-app ww
+Installed react-router-dom
+
