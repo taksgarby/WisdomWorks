@@ -1,0 +1,40 @@
+
+.footer {
+position: absolute;
+width: 1438px;
+height: 152px;
+left: 2px;
+top: 1633px;
+
+background: #115052;
+}
+
+.eclipse {
+position: absolute;
+width: 588px;
+height: 517px;
+
+background: #FFFFFF;
+filter: blur(153px);
+}
+
+.footer-text {
+position: absolute;
+left: 50.76%;
+right: 0%;
+top: 28.95%;
+bottom: 29.07%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 28px;
+/* or 98% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
