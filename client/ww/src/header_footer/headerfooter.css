@@ -1,21 +1,39 @@
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 125px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.logo {
+    position: absolute;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #115052;
+    padding: 1rem;
+    margin-left: 2rem;
+
+}
 
 .footer {
-position: absolute;
-width: 1438px;
-height: 152px;
-left: 2px;
-top: 1633px;
-
-background: #115052;
+    position: absolute;
+    width: 1438px;
+    height: 152px;
+    left: 2px;
+    top: 1633px;
+    background: #115052;
 }
 
 .eclipse {
-position: absolute;
-width: 588px;
-height: 517px;
-
-background: #FFFFFF;
-filter: blur(153px);
+    position: absolute;
+    width: 588px;
+    height: 517px;
+    background: #FFFFFF;
+    filter: blur(153px);
 }
 
 .footer-text {

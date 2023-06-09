@@ -4,7 +4,11 @@ import "./headerfooter.css";
 const Header = () => {
     return ( 
         <>
-        header
+        <div class="header">
+        <div class="logo">
+        Wisdom Works    
+        </div>    
+        </div>
         </>
      );
 }
