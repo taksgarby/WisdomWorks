@@ -1,10 +1,14 @@
 import React from "react";
+import Header from "../header_footer/Header";
+import Footer from "../header_footer/Footer";
 import "./MainContainer.css";
+
 
 const MainContainer = () => {
     return ( 
         <>
-        This is the main container
+        <Header />
+        <Footer />
         </>
      );
 }
